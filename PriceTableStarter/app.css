@@ -129,3 +129,10 @@ table {
     border-spacing: 0;
 }
 
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #60a9ff;;
+}
