@@ -1,3 +1,8 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 html,
 body,
 div,
@@ -142,7 +147,6 @@ body {
     min-height: 100vh;
 }
 
-
 .panel {
     background-color: white;
     border-radius: 10px;
@@ -163,10 +167,9 @@ body {
     border-bottom: none;
 }
 
-
-pricing-img {
-    margin-bottom:25px;
-    max-width:100%;
+.pricing-img {
+    margin-bottom: 25px;
+    max-width: 100%;
 }
 
 .pricing-header {
@@ -189,13 +192,12 @@ pricing-img {
     border-top: 1px solid #e1f1ff;
 }
 
-.pricing-features-item:last-child{
+.pricing-features-item:last-child {
     border-bottom: 1px solid #e1f1ff;
 }
 
-
 .pricing-price {
-    color:#016ff9;
+    color: #016ff9;
     display: block;
     font-size: 32px;
     font-weight: 700;
@@ -212,35 +214,35 @@ pricing-img {
     transition: background-color 200ms ease-in-out;
 }
 
-.pricing-button:hover, .pricing-button:focus {
+.pricing-button:hover,
+.pricing-button:focus {
     background-color: #e1f1ff;
 }
 
-.pricing-button.is-featured{
+.pricing-button.is-featured {
     background-color: #48aaff;
     color: white;
-
 }
 
-.pricing-button.is-featured:hover, .pricing-button.is-featured:focus {
-    background-color:#269aff;
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:focus {
+    background-color: #269aff;
     color: white;
-
 }
 
 
 @media (min-width: 900px) {
-  .panel {
-    flex-direction: row;
-  }
-  .pricing-plan {
-    border-bottom: none;
-    border-right: 1px solid #e1f1ff;
-    padding: 25px 50px;
-  }
-  .pricing-plan:last-child {
-    border-right: none;
+    .panel {
+        flex-direction: row;
+    }
 
-  }
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 50px;
+    }
 
+    .pricing-plan:last-child {
+        border-right: none;
+    }
 }
